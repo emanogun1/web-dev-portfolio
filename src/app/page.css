@@ -1,0 +1,31 @@
+.main {
+    background-color: white; /* bg-white */
+    padding-left: 10px; /* px-10 */
+    padding-right: 10px; /* px-10 */
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding-left: 20px; /* md:px-20 */
+        padding-right: 20px; /* md:px-20 */
+    }
+}
+
+@media (min-width: 1024px) {
+    .main {
+        padding-left: 40px; /* lg:px-40 */
+        padding-right: 40px; /* lg:px-40 */
+    }
+}
+
+.dark .main {
+    background-color: #1a202c; /* dark:bg-gray-900 */
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.h1 {
+    font-size: x-large;
+}

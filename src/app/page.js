@@ -4,7 +4,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
-import deved from "../../public/dev-ed-wave.png";
+import techDeskImage from "../../public/tech-desk.jpg"
 import design from "../../public/design.png";
 import code from "../../public/code.png";
 import consulting from "../../public/consulting.png";
@@ -27,7 +27,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl">developed by emmanuel</h1>
+            <h1 className="text-xl">developed by john doe</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -47,7 +47,7 @@ export default function Home() {
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium  md:text-6xl">
-              Emmanuel Ogunnowo
+              John Doe
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Web Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
@@ -60,7 +60,7 @@ export default function Home() {
             <AiFillYoutube />
           </div>
           <div className="relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md-95 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
+            <Image src={techDeskImage} layout="fill" objectFit="cover" />
           </div>
         </section>
 
